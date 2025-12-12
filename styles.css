@@ -1,3 +1,4 @@
+/*General styling*/
 body {
     background-color: rgb(27, 24, 20);
 
@@ -37,9 +38,9 @@ a:hover {
     color: rgb(49, 44, 37);
 }
 
+/*Main page styling*/
 
-
-.card {
+.card { /*styles my contact information card*/
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     width: 60%;
     border: 3px solid rgb(128, 90, 50);
@@ -64,7 +65,7 @@ a:hover {
     padding: 5px;
 }
 
-
+/*Form styling*/
 .fieldFormatter {
     width: 70%;
     display: flex;
@@ -88,9 +89,11 @@ fieldset {
     align-items: center;
 }
 
-.submitButton {
+.submitButton { /*styles the submit button on the form*/
     background-color: rgb(255, 231, 193);
 }
+
+/*Media queries*/
 
 @media screen and (min-width: 576px) {
     .makeRow {
